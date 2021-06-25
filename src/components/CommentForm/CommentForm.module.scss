@@ -1,0 +1,48 @@
+.formWrapper_paragraph {
+  padding-bottom: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #545454;
+  font-size: 16px;
+}
+.formWrapper_textarea {
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #545454;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 12px;
+}
+.formWrapper_cntainer_input {
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 26px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 15px;
+  color: #545454;
+  font-size: 12px;
+}
+.formWrapper_cntainer_paragraph {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #545454;
+  padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .formWapper {
+    display: grid;
+    justify-content: center;
+  }
+  .formWrapper_cntainer_paragraph {
+    justify-content: center;
+    display: grid;
+  }
+}

@@ -1,0 +1,33 @@
+.navigationWrapper {
+  position: fixed;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  padding: 0;
+  height: 50px;
+  background-color: #fff;
+  height: 80px;
+
+  .navigationWrapper_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #545454;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+}
+.navigationWrapper_element {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-decoration: none;
+  color: #545454;
+}
+.navigationWrapper_element:hover {
+  background-color: #ff3c00;
+  color: #fff;
+  transition: background-color 0.4s ease;
+}

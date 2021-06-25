@@ -1,0 +1,25 @@
+.headingWrapper {
+  color: #cfd8dc;
+  font-weight: bold;
+  justify-content: center;
+
+  display: grid;
+  align-self: center;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  display: grid;
+  justify-content: space-between;
+  padding-left: 44px;
+  padding-top: 58px;
+}
+.headingWrapper_paragraph {
+  color: #cfd8dc;
+}
+.headingWrapper_border {
+  color: #cfd8dc;
+  border: 1px solid;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  width: 50%;
+}

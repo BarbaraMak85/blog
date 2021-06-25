@@ -1,0 +1,124 @@
+.articlesWrapper {
+  justify-content: center;
+  display: grid;
+  background: #fff;
+  padding-top: 35px;
+  width: 900px;
+  margin-bottom: 50px;
+}
+.articlesWrapper_container {
+  display: grid;
+}
+.articlesWrapper_image {
+  border-bottom: solid 6px #ff3c00;
+  justify-self: center;
+}
+.articlesWrapper_titles {
+  text-align: center;
+  display: grid;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  font-family: "Roboto Condensed", sans-serif;
+}
+.articlesWrapper_content {
+  display: grid;
+  grid-template-columns: 88%;
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #545454;
+  justify-content: center;
+}
+.articlesWrapper_cntainer_coments {
+  background-color: #eaeaea;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #545454;
+}
+.articlesWrapper_paragraph {
+  padding-bottom: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #545454;
+  font-size: 16px;
+}
+.articlesWrapper_textarea {
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #545454;
+}
+.articlesWrapper_cntainer_input {
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 26px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #545454;
+}
+.articlesWrapper_cntainer_paragraph {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #545454;
+}
+
+.articlesWrapper_email {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.articlesWrapper_favorite {
+  display: grid;
+  grid-template-columns: 5% 20%;
+  justify-content: end;
+  padding-bottom: 15px;
+}
+.articlesWrapper_button {
+  background: #fff;
+  border: none;
+
+  display: grid;
+  align-self: center;
+
+  padding-right: 20px;
+
+  font-family: "Roboto Condensed", sans-serif;
+  color: #ffa700;
+  font-size: 18px;
+}
+.articlesWrapper_icon {
+  border: none;
+  color: #ffa700;
+  padding-right: 5px;
+  align-items: center;
+  justify-self: center;
+}
+@media (max-width: 768px) {
+  .articlesWrapper_image {
+    width: 680px;
+  }
+  .articlesWrapper_content {
+    display: grid;
+    grid-template-columns: 74%;
+    text-align: justify;
+  }
+  .articlesWrapper_favorite {
+    justify-content: center;
+  }
+  .articlesWrapper_comment {
+    display: grid;
+    grid-template-columns: 80%;
+
+    justify-content: center;
+  }
+}
+@media (max-width: 360px) {
+}
