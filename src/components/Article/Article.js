@@ -20,12 +20,7 @@ import ArticleComment from "../ArticleComment/ArticleComment";
 import CommentForm from "../CommentForm/CommentForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faHeart } from "@fortawesome/free-regular-svg-icons";
-import {
-  faGrinHearts,
-  faHeartbeat,
-  faStar,
-} from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 const searchInLiked = (list, id) => list.indexOf(id) > -1;
 

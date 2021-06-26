@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import List from "../../components/List/List";
-import Subscribe from "../../components/Subscribe/Subscribe";
-import Titles from "../../components/Titles/Titles";
+
 import Me from "../../assets/images/pexels-lukas-medvedevas-6013664.jpg";
 import styles from "./AboutMe.module.scss";
 

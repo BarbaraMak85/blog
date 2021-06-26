@@ -3,8 +3,6 @@ import styles from "./Navbar.module.scss";
 
 import { Link } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
-import { Link as PageLink } from "react-router-dom";
-import { routes } from "../../../routes/routes";
 
 const Navbar = () => {
   return (

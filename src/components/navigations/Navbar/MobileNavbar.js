@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { Link as PageLink } from "react-router-dom";
-import { routes } from "../../../routes/routes";
-// import styles from "./MobileNavbar.module.scss";
 
 import styles from "./MobileNavbar.module.scss";
 
